@@ -1,7 +1,118 @@
-.main-background{
+.container{
     background-color:hsl(217, 54%, 11%)
 }
 
-.card-background{
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 25%;
     background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-position{
+    margin: 20px;
+}
+
+.image-equilibrium{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 20px;
+}
+
+.card-title, 
+.card-paragraph, 
+.icon-ethereum-text, 
+.icon-clock-text,
+.image-avatar-text{
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-title{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-paragraph{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.icon-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-ethereum-text{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.icon-clock-text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.icon-ethereum, .icon-clock{
+    height: fit-content;
+    margin: 0 5px 0 0;
+}
+
+.horizontal-line{
+    border-color: hsl(215, 51%, 70%);
+    width: 91%;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.card-avatar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 20px 20px 20px;
+}
+
+.image-avatar{
+    width: 10%;
+    padding: 0 10px 0 0;
+}
+
+.image-avatar-text{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.image-avatar-text a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+footer{
+    margin: 25px;
 }

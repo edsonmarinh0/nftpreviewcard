@@ -15,42 +15,50 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="container">
 
-  <main class="main-background">
-    <section class="card-background">
-      <div>
-        <img src="assets/images/image-equilibrium.jpg" alt="Equilibrium Image">
-      </div>
-      <div>
-        <h2>Equilibrium #3429</h2>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-      </div>
-      <div>
+  <main class="row">
 
-        <div>
-          <img src="assets/images/icon-ethereum.svg" alt="Etherium Icon">
-          <p>0.041 ETH</p>
+      <div class="card">
+
+        <div class="image-position">
+          <img class="image-equilibrium"src="assets/images/image-equilibrium.jpg" alt="Equilibrium Image">
         </div>
 
-        <div>
-          <img src="assets/images/icon-clock.svg" alt="Clock Icon">
-          <p>3 days left</p>
+        <div class="card-content">
+          <h2 class="card-title">Equilibrium #3429</h2>
+          <p class="card-paragraph">Our Equilibrium collection promotes balance and calm.</p>
         </div>
-        
-      </div>
-      <div>
-        <img src="assets/images/image-avatar.png" alt="Avatar Image">
-        <p>Creation of <a href="#">Jules Wyvern</a></p>
-      </div>
 
-    </section>
+        <div class="card-info">
+          <div class="icon-info">
+            <img class="icon-ethereum" src="assets/images/icon-ethereum.svg" alt="Etherium Icon">
+            <p class="icon-ethereum-text">0.041 ETH</p>
+          </div>
   
+          <div class="icon-info">
+            <img class="icon-clock" src="assets/images/icon-clock.svg" alt="Clock Icon">
+            <p class="icon-clock-text">3 days left</p>
+          </div> 
+        </div>
+
+        <hr class="horizontal-line">
+
+        <div class="card-avatar">
+          <img class="image-avatar" src="assets/images/image-avatar.png" alt="Avatar Image">
+          <p class="image-avatar-text">Creation of <a href="#">Jules Wyvern</a></p>
+        </div>
+
+      </div>
+
+  </main>
+
+  <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Edson Marinho Júnior</a>.
     </div>
-  </main>
+  </footer>
 
 </body>
 </html>
